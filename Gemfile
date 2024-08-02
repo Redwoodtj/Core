@@ -8,13 +8,13 @@ group :development do
   gem 'mocha-on-bacon'
   gem 'prettybacon'
   gem 'rake', '~> 12.0'
-  gem 'rexml', '~> 3.2.5'
+  gem 'rexml', '~> 3.3.3'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '>= 3.11.2'
   gem 'webrick', '~> 1.7.0'
 
-  gem 'rubocop', '~> 1.8', :require => false
-  gem 'rubocop-performance', :require => false
+  gem 'rubocop', '~> 1.9', '>= 1.9.0', :require => false
+  gem 'rubocop-performance', '>= 1.10.0', :require => false
 end
 
 group :debugging do
