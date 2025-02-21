@@ -14,7 +14,7 @@ group :development do
   gem 'webrick', '~> 1.7.0'
 
   gem 'rubocop', '~> 1.8', :require => false
-  gem 'rubocop-performance', :require => false
+  gem 'rubocop-performance', '>= 1.24.0', :require => false
 end
 
 group :debugging do
