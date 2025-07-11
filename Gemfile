@@ -10,8 +10,8 @@ group :development do
   gem 'rake', '~> 12.0'
   gem 'rexml', '~> 3.2.5'
   gem 'vcr'
-  gem 'webmock'
-  gem 'webrick', '~> 1.7.0'
+  gem 'webmock', '>= 3.11.2'
+  gem 'webrick', '~> 1.8.2'
 
   gem 'rubocop', '~> 1.8', :require => false
   gem 'rubocop-performance', :require => false
