@@ -13,8 +13,8 @@ group :development do
   gem 'webmock'
   gem 'webrick', '~> 1.7.0'
 
-  gem 'rubocop', '~> 1.8', :require => false
-  gem 'rubocop-performance', :require => false
+  gem 'rubocop', '~> 1.66', '>= 1.66.0', :require => false
+  gem 'rubocop-performance', '>= 1.10.0', :require => false
 end
 
 group :debugging do
